@@ -1,0 +1,458 @@
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ul ol {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+#entete ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.haut-page {
+	position: fixed;
+	width: calc(100% - 17px);
+	border-bottom: black solid 1px;	
+	display: flex;
+	flex-flow: row nowrap;
+	align-items:center;
+	justify-content: space-around;
+	top:0%;
+	z-index:1;
+	background-color:#FFE984;
+}
+
+
+
+
+#presentation {
+	padding-top: 18%;
+	margin-bottom:5%;
+	padding-left: 3%;
+	padding-right: 3%;
+
+}
+
+#imgPresentation{
+	width: 15%;
+	float: right;
+	padding: 2%;
+	position: relative;
+	z-index: 0 ;
+}
+
+#imgPresentation2{
+	position:relative;
+	float:left;
+	padding-right:2%;
+	width: 25%;
+}
+
+
+#tarif{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	font-weight: bold;
+}
+
+iframe{
+	width: calc(100% - 4px);
+	height:400px;
+	align-self: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#carte {
+	display: flex;
+	flex-flow: column wrap;
+	padding-top: 12%;
+	margin-bottom: 7%; 
+	padding-right:3%;
+	padding-left: 3%;
+}
+
+#evenement{
+	display:none;
+}
+
+#entete li a {
+	text-decoration: none;
+	color: black;
+	font-family:'Homemade Apple', cursive;
+	font-size: large;
+}
+
+#Logo {
+	height: 90px;
+	clear: left;
+}
+
+
+#title{
+	background: url(./Images/impose.jpg) center;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 70% 70%;
+	min-height:600px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+#title h1 {
+	align-self: center;
+}
+
+.container {
+	border: transparent solid 1px;
+	background-color:#FFEF85;
+	font-family: 'Schoolbell', cursive;
+}
+
+p{
+	font-size: large;
+	text-align:justify;
+	
+}
+
+a {
+	font-family: 'Schoolbell', cursive;
+}
+
+
+
+footer {
+	border-top : black solid 1px;
+	display: flex;
+	height: 150px;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.reseaux {
+	display: flex;
+	background-color:darkgray;
+	border-radius: 15px;
+	margin-right: 20px;
+	opacity: 50%;
+	width: 70%;
+	justify-items: space-around;
+	align-items: center;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.creator {
+	display: flex;
+	align-self: flex-start;
+}
+
+.creator p {
+	font-size: medium;
+}
+
+.form-group {
+	margin-top: 1%;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#formulaire {
+	padding-top: 15%;
+	background-color:#FAE6CB;	
+	padding-left: 3%;
+}
+
+hr {
+	background-color: black;
+	width: 70%;
+	height: 5px;
+	border-radius: 50px;
+}
+
+h2 {
+	font-size: x-large;
+}
+
+#nom, #prénom, #email {
+    width: 80%;
+
+}
+
+#number {
+	width:70%;
+	margin-top: 4%;
+
+}
+
+#yoyo {
+    display: flex;
+    justify-content: space-between;
+	flex-flow: column wrap;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between ;
+	flex-flow: column nowrap;
+	margin-bottom: 4%;
+}
+
+#nom, #prénom {
+    flex-wrap: nowrap;
+}
+
+#email, #number {
+    flex-wrap: nowrap;
+}
+
+#listed {
+    padding-top: 1%;
+	width: 50%; 
+}
+
+option {
+	text-align: right;
+}
+
+#participe {
+    padding-top: 25px;
+	display:flex;
+	flex-flow: row nowrap;
+
+
+}
+
+.form-label {
+	margin-right: 3%;
+}
+
+#boutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    width: 25%;
+    height: 30px;
+	background-color: yellow;
+	margin-top: 5%;
+	box-shadow: -5px 10px 25px black;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+	
+	body{
+		background-image: url(./Images/limonade.jpg);
+		background-position: fixed;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+
+	.container {
+		border: transparent solid 1px;
+		width: 60%;
+		margin: auto;
+		margin-top:10px;
+		border-radius: 15px;
+		font-family: 'Schoolbell', cursive;
+	}
+
+	.haut-page{
+		width: calc(60% - 8px);
+	}
+
+	#title h1 {
+		font-size: 50px ;
+	}
+	
+	#entete {
+		width: 100%;
+	}
+
+	#entete ul {
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;	
+	}
+	
+	a{
+		font-size: large;
+	}
+
+	p{
+		font-size: x-large;
+	}
+
+	h2{
+		font-size: xx-large;
+	}
+
+	#Logo {
+		height: 150px;
+	}
+		 
+	iframe{
+	   width: 40%;
+	   height:800px;
+	   align-self: center;
+	}
+
+	#entete li a {
+		font-size: xx-large;;
+ 	}
+
+	#evenement {
+		display: block;
+		float: right;
+		width: 57%;
+		padding-top: 10%;
+	}
+
+	#presentation {
+		padding-top: 15%;
+	}
+
+
+	#carte {
+		padding-top: 15%;
+	}
+
+	#mapliste{
+		display:inline-block;
+		flex-flow: row nowrap;
+	}
+
+	#formulaire {
+		padding-top: 15%;
+		padding-bottom: 8%;
+	
+	}
+	
+	#listed {
+		padding-top: 2%;
+	}
+
+	.form-group {
+		padding-top: 5%;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	#yoyo {
+		width: 100%;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+
+
+	#nom, #prénom, #email {
+		width: 65%;
+		height: 110%;
+
+	}
+	
+	#number {
+		width: 39%;
+		margin-top: 0%;
+		height: 110%;
+
+	}
+
+	label {
+		font-size: larger;
+	}
+
+	#contact {
+		display: flex;
+		padding-top: 50px;
+		width: 100%;
+		justify-content: space-around ;
+		flex-flow: row nowrap;
+		margin-bottom: 5%;
+	}
+	
+	#nom, #prénom {
+		flex-wrap: wrap;
+	}
+	
+	#email, #number {
+		flex-wrap: wrap;
+	}
+	
+	#participe {
+		padding-top: 25px;
+		display:flex;
+		width: 50%;
+		flex-flow: row nowrap;
+	}
+	
+	#boutton {
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+	button {
+		width: 150px;
+		height: 50px;
+		margin-top: 10%;
+	}
+	
+	button:hover {
+		box-shadow:-2px 3px 5px black;
+	}
+
+	.reseaux {
+		width: 40%;
+	}
+	
+}
